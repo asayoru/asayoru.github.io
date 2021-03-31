@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Shiro | Personal blog</title>
+    <link>https://asayoru.github.io/tags/</link>
+    <description>Recent content in Tags on Shiro | Personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 31 Mar 2021 11:50:00 +0800</lastBuildDate><atom:link href="https://asayoru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown</title>
+      <link>https://asayoru.github.io/tags/markdown/</link>
+      <pubDate>Wed, 31 Mar 2021 11:50:00 +0800</pubDate>
+      
+      <guid>https://asayoru.github.io/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game</title>
+      <link>https://asayoru.github.io/tags/game/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://asayoru.github.io/tags/game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://asayoru.github.io/tags/html/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://asayoru.github.io/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New</title>
+      <link>https://asayoru.github.io/tags/new/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://asayoru.github.io/tags/new/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photos</title>
+      <link>https://asayoru.github.io/tags/photos/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://asayoru.github.io/tags/photos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://asayoru.github.io/tags/python/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://asayoru.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
