@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WOW on Shiro | Personal blog</title>
+    <link>https://asayoru.github.io/categories/wow/</link>
+    <description>Recent content in WOW on Shiro | Personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 07 Apr 2021 14:00:00 +0800</lastBuildDate><atom:link href="https://asayoru.github.io/categories/wow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>企業一頁式網站</title>
+      <link>https://asayoru.github.io/blog/web01/</link>
+      <pubDate>Wed, 07 Apr 2021 14:00:00 +0800</pubDate>
+      
+      <guid>https://asayoru.github.io/blog/web01/</guid>
+      <description>Bootstrap的輪播圖片
+使用WOW語法寫的動態效果
+嵌入GOOGLE地圖及表單
+作品連結→企業一頁式網站 </description>
+    </item>
+    
+  </channel>
+</rss>

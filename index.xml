@@ -6,35 +6,47 @@
     <description>Recent content on Shiro | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 02 Apr 2021 14:00:00 +0800</lastBuildDate><atom:link href="https://asayoru.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Apr 2021 14:00:00 +0800</lastBuildDate><atom:link href="https://asayoru.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>企業一頁式網站</title>
+      <link>https://asayoru.github.io/blog/web01/</link>
+      <pubDate>Wed, 07 Apr 2021 14:00:00 +0800</pubDate>
+      
+      <guid>https://asayoru.github.io/blog/web01/</guid>
+      <description>Bootstrap的輪播圖片
+使用WOW語法寫的動態效果
+嵌入GOOGLE地圖及表單
+作品連結→企業一頁式網站 </description>
+    </item>
+    
     <item>
       <title>To do list</title>
       <link>https://asayoru.github.io/blog/todolist/</link>
       <pubDate>Fri, 02 Apr 2021 14:00:00 +0800</pubDate>
       
       <guid>https://asayoru.github.io/blog/todolist/</guid>
-      <description></description>
+      <description>作品連結→To do list </description>
+    </item>
+    
+    <item>
+      <title>家具店一頁式網頁</title>
+      <link>https://asayoru.github.io/blog/akea/</link>
+      <pubDate>Sat, 20 Mar 2021 14:00:00 +0800</pubDate>
+      
+      <guid>https://asayoru.github.io/blog/akea/</guid>
+      <description>作品連結→家具店一頁式網頁 </description>
     </item>
     
     <item>
       <title>Markdown 基本語法</title>
       <link>https://asayoru.github.io/blog/test/</link>
-      <pubDate>Wed, 31 Mar 2021 11:50:00 +0800</pubDate>
+      <pubDate>Mon, 01 Mar 2021 11:50:00 +0800</pubDate>
       
       <guid>https://asayoru.github.io/blog/test/</guid>
       <description>Hello World
 換行換行
 一級標題 二級標題 最小六級標題 兩個米字號粗體粗體包起來，一個米字號斜體斜體包起來
  一個米字號 加空白鍵 可加無序序列 預設是手手  內縮序列 要4個空白鍵 再加米字和空白     大於符號加空白可引用文字</description>
-    </item>
-    
-    <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://asayoru.github.io/blog/post-13/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://asayoru.github.io/blog/post-13/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
     </item>
     
   </channel>

@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- WOW -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <title>Hello, world!</title>
+    <style>
+        .bg-cover {
+            background-position: center center;
+            background-size: cover;
+        }
+
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        P {
+            animation: fadeInDown;
+            animation-duration: 1s;
+        }
+        .btn{
+            font-weight: bold;
+        }
+
+        @media screen and (max-width:768px) {
+            .mycontent {
+                color: white;
+                text-shadow: 0.05rem 0.1rem 0.05rem #000;
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ******************01.********************** -->
+    <section class="bg-secondary">
+        <div class="container">
+            <div class="text-right text-white">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- ******************02.導覽列********************** -->
+    <section class="bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#"><i class="fab fa-pagelines"></i></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">首頁 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">關於我們</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                核心價值
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">環境永續</a>
+                                <a class="dropdown-item" href="#">國際公約</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">相關報導</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <button type="button" class="btn btn-outline-primary mr-2" data-toggle="modal"
+                            data-target="#exampleModal">登入</button>
+                        <button class="btn  btn-primary">註冊</button>
+
+                        <!-- Modal彈出登入頁面 -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">會員登入</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <!-- 登入表單內容 -->
+                                    <div class="modal-body">
+                                        <div class="form-group my-3">
+                                            <label>帳號：</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>密碼：</label>
+                                            <input type="password" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">取消</button>
+                                        <button type="button" class="btn btn-primary">登入</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <!-- ******************03.圖片輪播********************** -->
+    <section>
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active bg-cover"
+                    style="background-image: url(images/ocean001.jpg); height: 500px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="font-weight-bold">回應客人，數量哈哈。</h5>
+                        <p class="mx-3">
+                            而已網咖卻是在這事情字體思想下面一眼運用本身負責人開發商，聰明就能集體，最佳畢業孤獨但在電子同樣小學一起我就由於哪些來看無門面對，代表一口氣自由溫柔實現二手好評這一怎麼參觀，同樣加入編號建築，內容簡介居民看不到條款循環敵人傳來執行時間有一些上來，做什麼本。
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item bg-cover" style="background-image: url(images/ocean002.jpg); height: 500px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>選擇緊緊生物妻子物業，結束每個，別人遺。</h5>
+                        <p class="mx-3">
+                            能學到編輯，學生評論今天防止年輕，下載總結安裝增強行情道理有一些不是站在建議億元不承擔圖書開發，調節打開，沒有什麼市場，內存我很從事照片你的電子郵件，推薦使用第一個，規則做出集中更新，幹什麼從事女友經驗革命似乎飯店首先環節，報名家人古代股票上傳，那裡眼光。
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item bg-cover" style="background-image: url(images/ocean003.jpg); height: 500px;">
+                    <img src="images/ocean003.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>把我你們如今回覆，玄幻時期反對拍攝，首。</h5>
+                        <p class="mx-3">
+                            及時無限反正鮮花對話醫生檢驗緊急教師似乎風雲勝利發佈日期，網址出現在，出台許多主題表面精采位元某種怎麼輸入不足本網一款介紹，精品農民存在負責人不要相當浪費手中傷心態度畢業生，默認但他武器蔬菜近期離線資源騎士控制，主任決定繼續即使基本上違反，圖書沒想到，演。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- ******************04.********************** -->
+    <section style="background-color: #006d77;">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-md-4 text-white text-center">
+                    <i class="fas fa-tree fa-6x my-3  wow animate__animated animate__zoomIn"></i>
+                    <h2 class="font-weight-bold">再生能源</h2>
+                    <p>品牌有人激動外資，作用再說出租喜愛需求人物加工告訴我競爭力或許升級規格警告包含，科技有限公司患者樣子體現，進一步準確液晶一絲可以說地方，實力這樣生氣國務院立刻萬元讓人高達後來魔獸引用，真實性貢獻要求元素你說我的心被人檔案授權方式演員業績，一次浪費我有，買。
+                    </p>
+                </div>
+                <div class="col-md-4 text-white text-center">
+                    <i class="fas fa-recycle fa-6x my-3 wow animate__animated animate__zoomIn" data-wow-delay="0.5s"></i>
+                    <h2 class="font-weight-bold">節能減碳</h2>
+                    <p>品牌有人激動外資，作用再說出租喜愛需求人物加工告訴我競爭力或許升級規格警告包含，科技有限公司患者樣子體現，進一步準確液晶一絲可以說地方，實力這樣生氣國務院立刻萬元讓人高達後來魔獸引用，真實性貢獻要求元素你說我的心被人檔案授權方式演員業績，一次浪費我有，買。
+                    </p>
+                </div>
+                <div class="col-md-4 text-white text-center">
+                    <i class="fas fa-cloud-moon fa-6x my-3 wow animate__animated animate__zoomIn" data-wow-delay="1s"></i>
+                    <h2 class="font-weight-bold">氣候變遷</h2>
+                    <p>品牌有人激動外資，作用再說出租喜愛需求人物加工告訴我競爭力或許升級規格警告包含，科技有限公司患者樣子體現，進一步準確液晶一絲可以說地方，實力這樣生氣國務院立刻萬元讓人高達後來魔獸引用，真實性貢獻要求元素你說我的心被人檔案授權方式演員業績，一次浪費我有，買。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ******************05.********************** -->
+    <section style="position: relative;">
+        <div class="row">
+            <div class="col-md-5 bg-cover" style="position: absolute; 
+                    background-image: url(images/ocean004.jpg); 
+                    top: 0;
+                    bottom: 0;"></div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-md-7 mt-3 mycontent">
+                    <h2>令人發達上升正式對方新竹一把。</h2>
+                    <p>郵箱國家，婚姻不多去年啟動文字，參考效果有個機會良好我要父親，深刻改進身材一部困難本月點評，魯蛇有關部門重要官方，經常釣魚眼神今年還不開發者大會醫院勞動，一看浪漫最低距離具有屏東不好一個經銷商百姓最高遊戲太陽，緊張內地移動也是舉辦組織是我武器十大水晶擁有，你的到達，正確帶著，出租無派，他也回去，不。
+                    </p>
+                    <button class="btn btn-outline-info">深入了解</button>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <h3>好看百萬，和平花園。</h3>
+                            <p>日子貼圖，該公司導致小心學習不得不遇到接觸對不起例如傳統日本爭取都會，你的均為時尚在我，引擎一道兒。</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>好看百萬，和平花園。</h3>
+                            <p>日子貼圖，該公司導致小心學習不得不遇到接觸對不起例如傳統日本爭取都會，你的均為時尚在我，引擎一道兒。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ******************06.********************** -->
+    <section class="my-5">
+        <div class="container">
+            <h1 class="text-center my-5">核心價值</h1>
+            <div class="row">
+                <div class="col-md-6 my-3">
+                    <!-- d-flex可以平行 -->
+                    <div class="d-flex">
+                        <i class="fab fa-digital-ocean fa-5x mr-3 mt-3 text-info wow animate__animated animate__zoomIn"></i>
+                        <div>
+                            <h2 class="font-weight-bold">海洋生命</h2>
+                            <p>主流鬱悶電子一級禮品一句話，大概主流色彩享受你知道就業榮譽你的教學時代對我期限回應，說著徹底上午逐步事實不行實行最低到。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 my-3">
+                    <div class="d-flex">
+                        <i class="fas fa-fish fa-5x mr-3 mt-3 text-info wow animate__animated animate__zoomIn" data-wow-delay="0.5s"></i>
+                        <div>
+                            <h2 class="font-weight-bold">動物友善</h2>
+                            <p>主流鬱悶電子一級禮品一句話，大概主流色彩享受你知道就業榮譽你的教學時代對我期限回應，說著徹底上午逐步事實不行實行最低到。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 my-3">
+                    <div class="d-flex">
+                        <i class="fas fa-seedling fa-5x mr-3 mt-3 text-success wow animate__animated animate__zoomIn" data-wow-delay="1s"></i>
+                        <div>
+                            <h2 class="font-weight-bold">永續環境</h2>
+                            <p>主流鬱悶電子一級禮品一句話，大概主流色彩享受你知道就業榮譽你的教學時代對我期限回應，說著徹底上午逐步事實不行實行最低到。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 my-3">
+                    <div class="d-flex">
+                        <i class="fas fa-globe-europe fa-5x mr-3 mt-3 text-success wow animate__animated animate__zoomIn"  data-wow-delay="1.5s"></i>
+                        <div>
+                            <h2 class="font-weight-bold">國際公約</h2>
+                            <p>主流鬱悶電子一級禮品一句話，大概主流色彩享受你知道就業榮譽你的教學時代對我期限回應，說著徹底上午逐步事實不行實行最低到。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ******************07.********************** -->
+    <section style="position: relative;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 mycontent" style="z-index: 1;">
+                    <dl class="row">
+                        <dt class="col-sm-3">Description lists</dt>
+                        <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
+
+                        <dt class="col-sm-3">Euismod</dt>
+                        <dd class="col-sm-9">
+                            <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
+                            <p>Donec id elit non mi porta gravida at eget metus.</p>
+                        </dd>
+
+                        <dt class="col-sm-3">Malesuada porta</dt>
+                        <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+
+                        <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+                        <dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+                            fermentum massa justo sit amet risus.</dd>
+
+                        <dt class="col-sm-3">Nesting</dt>
+                        <dd class="col-sm-9">
+                            <dl class="row">
+                                <dt class="col-sm-4">Nested definition list</dt>
+                                <dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.
+                                </dd>
+                            </dl>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-md-5 bg-cover" style="background-image: url(images/ocean005.jpg);
+                position: absolute;
+                top: 0;
+                bottom: 0;" style="z-index: 0;">
+            </div>
+        </div>
+    </section>
+
+    <!-- ******************08.GOOGLE MAP和表單********************** -->
+    <section>
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14560.365550356555!2d120.60847195!3d24.16852755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693e048d342aa9%3A0x2b6f18a6783fa3b!2z5Yue5YuV6YOo5Yue5YuV5Yqb55m85bGV572y5Lit5b2w5oqV5YiG572y77yI6Ie65Lit6IG36KiT5bGA77yJ!5e0!3m2!1szh-TW!2stw!4v1610690415162!5m2!1szh-TW!2stw"
+                        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label>姓名</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>電話</label>
+                            <input type="tel" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>人數</label>
+                            <input type="number" class="form-control">
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                                確認參加
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                                value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                                考慮參加
+                            </label>
+                        </div>
+                        <div class="text-right">
+                            <a href="" class="btn btn-outline-primary">取消</a>
+                            <a href="" class="btn btn-primary">確定</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ******************09.徵才********************** -->
+    <section>
+        <div class="row mycontent">
+            <div class="col-md-6 bg-cover" style="background-image: url(images/ocean006.jpg);">
+                <div class="row">
+                    <!-- p-5=padding 5 -->
+                    <div class="col-md-8 p-5 text-white">
+                        <small>加入我們</small>
+                        <h3>整合行銷</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum animi blanditiis odio ut
+                            magni tempore voluptatibus voluptas, hic ducimus soluta!</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 bg-cover" style="background-image: url(images/ocean007.jpg);">
+                <div class="row">
+                    <div class="col-md-8 p-5">
+                        <small>招兵買馬</small>
+                        <h3>視覺美編</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum animi blanditiis odio ut
+                            magni tempore voluptatibus voluptas, hic ducimus soluta!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ******************10.版權宣告********************** -->
+    <section>
+        <div class="container my-5">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Copyright © 2021-01 by SHIRO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Twitter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Plurk</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Instagram</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Shiro | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 02 Apr 2021 14:00:00 +0800</lastBuildDate><atom:link href="https://asayoru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Apr 2021 14:00:00 +0800</lastBuildDate><atom:link href="https://asayoru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bootstrap</title>
+      <link>https://asayoru.github.io/tags/bootstrap/</link>
+      <pubDate>Wed, 07 Apr 2021 14:00:00 +0800</pubDate>
+      
+      <guid>https://asayoru.github.io/tags/bootstrap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WOW</title>
+      <link>https://asayoru.github.io/tags/wow/</link>
+      <pubDate>Wed, 07 Apr 2021 14:00:00 +0800</pubDate>
+      
+      <guid>https://asayoru.github.io/tags/wow/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Javasript</title>
       <link>https://asayoru.github.io/tags/javasript/</link>
@@ -17,56 +35,20 @@
     </item>
     
     <item>
+      <title>RWD</title>
+      <link>https://asayoru.github.io/tags/rwd/</link>
+      <pubDate>Sat, 20 Mar 2021 14:00:00 +0800</pubDate>
+      
+      <guid>https://asayoru.github.io/tags/rwd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Markdown</title>
       <link>https://asayoru.github.io/tags/markdown/</link>
-      <pubDate>Wed, 31 Mar 2021 11:50:00 +0800</pubDate>
+      <pubDate>Mon, 01 Mar 2021 11:50:00 +0800</pubDate>
       
       <guid>https://asayoru.github.io/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Game</title>
-      <link>https://asayoru.github.io/tags/game/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://asayoru.github.io/tags/game/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HTML</title>
-      <link>https://asayoru.github.io/tags/html/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://asayoru.github.io/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>New</title>
-      <link>https://asayoru.github.io/tags/new/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://asayoru.github.io/tags/new/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Photos</title>
-      <link>https://asayoru.github.io/tags/photos/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://asayoru.github.io/tags/photos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://asayoru.github.io/tags/python/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://asayoru.github.io/tags/python/</guid>
       <description></description>
     </item>
     

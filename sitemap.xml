@@ -3,10 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://asayoru.github.io/blog/</loc>
-    <lastmod>2021-04-02T14:00:00+08:00</lastmod>
+    <lastmod>2021-04-07T14:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://asayoru.github.io/tags/bootstrap/</loc>
+    <lastmod>2021-04-07T14:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://asayoru.github.io/categories/bootstrap/</loc>
+    <lastmod>2021-04-07T14:00:00+08:00</lastmod>
   </url><url>
     <loc>https://asayoru.github.io/categories/</loc>
-    <lastmod>2021-04-02T14:00:00+08:00</lastmod>
+    <lastmod>2021-04-07T14:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://asayoru.github.io/</loc>
+    <lastmod>2021-04-07T14:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://asayoru.github.io/tags/</loc>
+    <lastmod>2021-04-07T14:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://asayoru.github.io/tags/wow/</loc>
+    <lastmod>2021-04-07T14:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://asayoru.github.io/categories/wow/</loc>
+    <lastmod>2021-04-07T14:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://asayoru.github.io/blog/web01/</loc>
+    <lastmod>2021-04-07T14:00:00+08:00</lastmod>
   </url><url>
     <loc>https://asayoru.github.io/tags/javasript/</loc>
     <lastmod>2021-04-02T14:00:00+08:00</lastmod>
@@ -14,23 +35,26 @@
     <loc>https://asayoru.github.io/categories/javasript/</loc>
     <lastmod>2021-04-02T14:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://asayoru.github.io/</loc>
-    <lastmod>2021-04-02T14:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://asayoru.github.io/tags/</loc>
-    <lastmod>2021-04-02T14:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://asayoru.github.io/blog/todolist/</loc>
     <lastmod>2021-04-02T14:00:00+08:00</lastmod>
   </url><url>
+    <loc>https://asayoru.github.io/tags/rwd/</loc>
+    <lastmod>2021-03-20T14:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://asayoru.github.io/categories/rwd/</loc>
+    <lastmod>2021-03-20T14:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://asayoru.github.io/blog/akea/</loc>
+    <lastmod>2021-03-20T14:00:00+08:00</lastmod>
+  </url><url>
     <loc>https://asayoru.github.io/tags/markdown/</loc>
-    <lastmod>2021-03-31T11:50:00+08:00</lastmod>
+    <lastmod>2021-03-01T11:50:00+08:00</lastmod>
   </url><url>
     <loc>https://asayoru.github.io/categories/markdown/</loc>
-    <lastmod>2021-03-31T11:50:00+08:00</lastmod>
+    <lastmod>2021-03-01T11:50:00+08:00</lastmod>
   </url><url>
     <loc>https://asayoru.github.io/blog/test/</loc>
-    <lastmod>2021-03-31T11:50:00+08:00</lastmod>
+    <lastmod>2021-03-01T11:50:00+08:00</lastmod>
   </url><url>
     <loc>https://asayoru.github.io/about/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
@@ -40,26 +64,5 @@
   </url><url>
     <loc>https://asayoru.github.io/search/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
-  </url><url>
-    <loc>https://asayoru.github.io/tags/game/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://asayoru.github.io/categories/go-language/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://asayoru.github.io/blog/post-13/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://asayoru.github.io/tags/html/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://asayoru.github.io/tags/new/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://asayoru.github.io/tags/photos/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://asayoru.github.io/tags/python/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
 </urlset>

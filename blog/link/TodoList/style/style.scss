@@ -1,0 +1,159 @@
+*{
+    font-family: 'Montserrat', sans-serif, "微軟正黑體";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.1rem;
+}
+
+body{
+    background: linear-gradient(90deg, #bc6c25, #283618);
+}
+
+header{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        color: #fefae0;
+        font-size: 3rem;
+    }
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input, button{
+        border: none;
+        border-radius: 0.5rem;
+        padding: 0.5rem 0.75rem;
+        font-size: 1.5rem;
+        margin: 0.5rem;
+        font-weight: 500;
+    }
+
+    input[type="number"]{
+        width: 100px;
+        text-align: center;
+        margin: 0.1rem;
+    }
+    button{
+        cursor: pointer;
+        background-color: #bc6c25;
+        color: #fefae0;
+    }
+}
+
+/*隱藏數字上下按鈕 = W3C 搜尋"number arrow hide css" */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+-moz-appearance: textfield;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .todo{
+        width: 50vw;
+        display: flex;
+        align-items: center;
+        margin: 0.2rem 0rem;
+
+        transition: all 0.1s ease;  //按下打勾時標示記號的動畫
+
+        p{
+            background-color: #fefae0;
+            color: #283618;
+            border-radius: 0.5rem;
+            padding: 0.25rem;
+            margin: 0.2rem 0.1rem;
+            font-size: 1.5rem;
+        }
+        p.todo-text{
+            width: 75%;
+            padding-left: 1rem;
+        }
+        p.todo-time{
+            width: 25%;
+            text-align: left;
+            padding-left: 1rem;
+        }
+
+        //打勾和垃圾桶按鈕
+        button{
+            padding: 0.25rem 0.5rem;
+            margin: 0rem 0.2rem;
+            font-size: 1.5rem;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            color: #fefae0;
+        }
+        button.complete{
+            background-color: #606c38;
+        }
+        button.trash{
+            background-color: #bc6c25;
+        }
+    }
+}
+
+//排序按鈕
+.sort{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+
+    button{
+        cursor: pointer;
+        background-color: #606c38;
+        color: #fefae0;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 0.5rem 0.75rem;
+        margin: 1rem 0rem;
+        font-size: 1.25rem;
+    }
+}
+
+//事項完成時標示記號
+.done {
+    opacity: 0.5;                       //透明度
+    text-decoration: line-through;      //刪除線
+    text-decoration-thickness: 0.2rem;  //刪除線的粗細
+}
+
+//取消滑鼠事件，因為e.target的父層裡i 和button 重疊在一起，會按錯
+i {
+    pointer-events: none;
+}
+
+//新增事項時彈出動畫
+@keyframes scaleUp {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+//垃圾桶移除動畫
+@keyframes scaleDown {
+    to {
+        transform: scale(0);
+    }
+}
