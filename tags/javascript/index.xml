@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javascript on Shiro | Personal blog</title>
+    <link>https://asayoru.github.io/tags/javascript/</link>
+    <description>Recent content in javascript on Shiro | Personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 05 Apr 2021 14:00:00 +0800</lastBuildDate><atom:link href="https://asayoru.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>To do list</title>
+      <link>https://asayoru.github.io/blog/todolist/</link>
+      <pubDate>Mon, 05 Apr 2021 14:00:00 +0800</pubDate>
+      
+      <guid>https://asayoru.github.io/blog/todolist/</guid>
+      <description>作品連結→To do list </description>
+    </item>
+    
+    <item>
+      <title>PhoneDemo</title>
+      <link>https://asayoru.github.io/blog/phone/</link>
+      <pubDate>Thu, 25 Mar 2021 14:00:00 +0800</pubDate>
+      
+      <guid>https://asayoru.github.io/blog/phone/</guid>
+      <description>網頁上模擬手機demo，點擊滑動手機頁面、震動和旋轉特效音效
+作品連結→PhoneDemo 教學來自這裡</description>
+    </item>
+    
+  </channel>
+</rss>

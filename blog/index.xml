@@ -22,10 +22,40 @@
     <item>
       <title>To do list</title>
       <link>https://asayoru.github.io/blog/todolist/</link>
-      <pubDate>Fri, 02 Apr 2021 14:00:00 +0800</pubDate>
+      <pubDate>Mon, 05 Apr 2021 14:00:00 +0800</pubDate>
       
       <guid>https://asayoru.github.io/blog/todolist/</guid>
       <description>作品連結→To do list </description>
+    </item>
+    
+    <item>
+      <title>旅遊社觀光網頁</title>
+      <link>https://asayoru.github.io/blog/travel/</link>
+      <pubDate>Fri, 02 Apr 2021 14:00:00 +0800</pubDate>
+      
+      <guid>https://asayoru.github.io/blog/travel/</guid>
+      <description>Bootstrap的輪播圖片
+作品連結→旅遊社觀光網頁 </description>
+    </item>
+    
+    <item>
+      <title>WeatherBox天氣盒子</title>
+      <link>https://asayoru.github.io/blog/weatherbox/</link>
+      <pubDate>Tue, 30 Mar 2021 14:00:00 +0800</pubDate>
+      
+      <guid>https://asayoru.github.io/blog/weatherbox/</guid>
+      <description>手刻SVG，動態的一周天氣顯示頁面
+作品連結→WeatherBox 教學來自這裡</description>
+    </item>
+    
+    <item>
+      <title>PhoneDemo</title>
+      <link>https://asayoru.github.io/blog/phone/</link>
+      <pubDate>Thu, 25 Mar 2021 14:00:00 +0800</pubDate>
+      
+      <guid>https://asayoru.github.io/blog/phone/</guid>
+      <description>網頁上模擬手機demo，點擊滑動手機頁面、震動和旋轉特效音效
+作品連結→PhoneDemo 教學來自這裡</description>
     </item>
     
     <item>
@@ -35,18 +65,6 @@
       
       <guid>https://asayoru.github.io/blog/akea/</guid>
       <description>作品連結→家具店一頁式網頁 </description>
-    </item>
-    
-    <item>
-      <title>Markdown 基本語法</title>
-      <link>https://asayoru.github.io/blog/test/</link>
-      <pubDate>Mon, 01 Mar 2021 11:50:00 +0800</pubDate>
-      
-      <guid>https://asayoru.github.io/blog/test/</guid>
-      <description>Hello World
-換行換行
-一級標題 二級標題 最小六級標題 兩個米字號粗體粗體包起來，一個米字號斜體斜體包起來
- 一個米字號 加空白鍵 可加無序序列 預設是手手  內縮序列 要4個空白鍵 再加米字和空白     大於符號加空白可引用文字</description>
     </item>
     
   </channel>

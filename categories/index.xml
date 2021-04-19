@@ -26,11 +26,20 @@
     </item>
     
     <item>
-      <title>Javasript</title>
-      <link>https://asayoru.github.io/categories/javasript/</link>
-      <pubDate>Fri, 02 Apr 2021 14:00:00 +0800</pubDate>
+      <title>javascript</title>
+      <link>https://asayoru.github.io/categories/javascript/</link>
+      <pubDate>Mon, 05 Apr 2021 14:00:00 +0800</pubDate>
       
-      <guid>https://asayoru.github.io/categories/javasript/</guid>
+      <guid>https://asayoru.github.io/categories/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SVG</title>
+      <link>https://asayoru.github.io/categories/svg/</link>
+      <pubDate>Tue, 30 Mar 2021 14:00:00 +0800</pubDate>
+      
+      <guid>https://asayoru.github.io/categories/svg/</guid>
       <description></description>
     </item>
     
@@ -40,15 +49,6 @@
       <pubDate>Sat, 20 Mar 2021 14:00:00 +0800</pubDate>
       
       <guid>https://asayoru.github.io/categories/rwd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Markdown</title>
-      <link>https://asayoru.github.io/categories/markdown/</link>
-      <pubDate>Mon, 01 Mar 2021 11:50:00 +0800</pubDate>
-      
-      <guid>https://asayoru.github.io/categories/markdown/</guid>
       <description></description>
     </item>
     
