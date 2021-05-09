@@ -6,11 +6,11 @@
     <description>Recent content in Bootstrap on Shiro | Personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 07 Apr 2021 14:00:00 +0800</lastBuildDate><atom:link href="https://asayoru.github.io/categories/bootstrap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Apr 2021 14:00:00 +0800</lastBuildDate><atom:link href="https://asayoru.github.io/categories/bootstrap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>企業一頁式網站</title>
       <link>https://asayoru.github.io/blog/web01/</link>
-      <pubDate>Wed, 07 Apr 2021 14:00:00 +0800</pubDate>
+      <pubDate>Thu, 15 Apr 2021 14:00:00 +0800</pubDate>
       
       <guid>https://asayoru.github.io/blog/web01/</guid>
       <description>Bootstrap的輪播圖片
@@ -22,11 +22,21 @@
     <item>
       <title>旅遊社觀光網頁</title>
       <link>https://asayoru.github.io/blog/travel/</link>
-      <pubDate>Fri, 02 Apr 2021 14:00:00 +0800</pubDate>
+      <pubDate>Wed, 07 Apr 2021 14:00:00 +0800</pubDate>
       
       <guid>https://asayoru.github.io/blog/travel/</guid>
       <description>Bootstrap的輪播圖片
 作品連結→旅遊社觀光網頁 </description>
+    </item>
+    
+    <item>
+      <title>Bootstrap一頁式網站</title>
+      <link>https://asayoru.github.io/blog/web02/</link>
+      <pubDate>Fri, 02 Apr 2021 14:00:00 +0800</pubDate>
+      
+      <guid>https://asayoru.github.io/blog/web02/</guid>
+      <description>Bootstrap一頁式網站
+作品連結→Bootstrap一頁式網站 </description>
     </item>
     
     <item>

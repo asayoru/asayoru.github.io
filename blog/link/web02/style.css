@@ -1,0 +1,99 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1603270227428-3ea5d22b0dd8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1652&q=80);
+  background-size: cover;
+  background-position: center center;
+  padding: 170px;
+  color: white;
+}
+
+section {
+  text-align: center;
+  padding: 80px 0px;
+}
+section .section-heading {
+  font-size: 36px;
+  margin-top: 0px;
+}
+section .section-subheading {
+  font-size: 16px;
+}
+
+.col-sea {
+  padding: 90px;
+}
+.col-sea img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+section.story {
+  background-color: #eee;
+}
+section.story .col-md-6 {
+  padding: 20px;
+  margin-top: 50px;
+}
+section.story .icon-sea {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+section.pictures {
+  color: white;
+  padding: 0px;
+}
+section.pictures .col-md-6 {
+  padding: 150px 200px;
+  cursor: pointer;
+}
+section.pictures .col-md-6:hover p {
+  opacity: 0.7;
+}
+section.pictures .col-md-6:hover:before {
+  filter: brightness(0.5);
+  background-size: auto 120%;
+}
+section.pictures .col-md-6:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition-duration: 0.5s;
+  background-position: center center;
+}
+section.pictures .pic1:before {
+  background-image: url(https://images.unsplash.com/photo-1507141627444-b744dd749cb4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1652&q=80);
+  background-size: auto 100%;
+}
+section.pictures .pic2:before {
+  background-image: url(https://images.unsplash.com/photo-1562591970-254bc62245c0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
+  background-size: auto 100%;
+}
+section.pictures p {
+  opacity: 0.5;
+}
+
+section.ask {
+  background-color: #01233C;
+  color: white;
+}
+
+section.ask input {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
